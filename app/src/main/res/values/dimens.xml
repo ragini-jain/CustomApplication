@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">20dp</dimen>
+    <dimen name="leftPadding">90dp</dimen>
+    <dimen name="width">270dp</dimen>
+    <dimen name="height">60dp</dimen>
+    <dimen name="textWidth">3dp</dimen>
+    <dimen name="radius">14dp</dimen>
+</resources>

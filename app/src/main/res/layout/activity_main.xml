@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:paddingTop="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/headingId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:paddingRight="30dp"
+        android:paddingLeft="110dp"
+        style="@style/GreenText"
+        android:text="@string/login_application"/>
+
+        <EditText
+            android:id="@+id/nameTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/user_name"/>
+
+        <EditText
+            android:id="@+id/passwordTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/password"/>
+
+         <com.gl.themeapplication.CustomView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:theme="@style/customTheme"
+             android:id="@+id/customButton"/>
+
+
+</LinearLayout>

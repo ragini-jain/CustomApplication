@@ -1,0 +1,21 @@
+<resources>
+
+        <style name="GreenText" parent="TextAppearance.AppCompat.Button">
+            <item name="android:textColor">#1A1B1A</item>
+        </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="customTheme" parent="Theme.AppCompat.Light">
+        <item name="android:width">20dp</item>
+        <item name="android:height">20dp</item>
+        <item name="android:color">@color/colorPrimary</item>
+
+    </style>
+
+</resources>
